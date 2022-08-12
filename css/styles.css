@@ -99,6 +99,7 @@ button {
 
 /* Особливості */
 .section-title {
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
