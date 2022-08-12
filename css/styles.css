@@ -50,19 +50,22 @@ body {
   color: var(--title-color);
 }
 
-/* hat */
+/* Замовити послугу */
 .hat {
+  background-color: var(--secondary-bg-color);
+}
+
+.hat-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
 }
-/* Кнопки */
 
+/* Кнопки */
 button {
   cursor: pointer;
   font-family: inherit;
@@ -93,9 +96,9 @@ button {
   background-color: var(--accent-color);
   color: var(--title-text-color);
 }
-/* Особливості */
 
-.section {
+/* Особливості */
+.section-title {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -104,6 +107,7 @@ button {
   line-height: 1.71;
   color: var(--title-color);
 }
+
 /* team-Наша команда */
 .team {
   font-weight: 700;
@@ -149,6 +153,7 @@ button {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 /* Contacts */
 .footer {
   background-color: var(--secondary-bg-color);
